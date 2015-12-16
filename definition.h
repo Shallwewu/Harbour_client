@@ -1,0 +1,41 @@
+//#define AREA "∫·…≥”Ê∏€1∫≈"
+//#define STATION "≥Á√˜±ﬂºÏ’æ"
+//#define REIP_ADDRESS "127.0.0.1"
+//#define REMOTEPORT 9999
+//#define UDPADDRESS "172.16.0.106"
+//#define UDPPORT 60000
+//#define IP_PIn "172.16.0.102"
+//#define IP_POut "172.16.0.103"
+//#define IP_DriverIn "172.16.0.104"
+//#define IP_TrafficIn "172.16.0.105"
+//#define IP_DriverOut "172.16.0.115"
+//#define IP_TrafficOut "172.16.0.116"
+
+//extern string AREA;
+//extern string STATION;
+//extern string REIP_ADDRESS;
+//extern int REMOTEPORT;
+//extern string UDPADDRESS;
+//extern int UDPPORT;
+//extern string IP_PIn;
+//extern string IP_POut;
+//extern string IP_DriverIn;
+//extern string IP_TrafficIn;
+//extern string IP_DriverOut;
+//extern string IP_TrafficOut;
+
+extern char* AREA;
+extern char* STATION;
+extern char REIP_ADDRESS[20];
+extern int REMOTEPORT;
+extern char UDPADDRESS[20];
+extern int UDPPORT;
+extern unsigned int iDevSn;
+extern char IP_PIn[20];
+extern char IP_POut[20];
+extern char IP_DriverIn[20];
+extern char IP_TrafficIn[20];
+extern char IP_DriverOut[20];
+extern char IP_TrafficOut[20];
+extern wchar_t *com_ICin;
+extern wchar_t *com_ICout;
