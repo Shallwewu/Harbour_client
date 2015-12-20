@@ -12,4 +12,5 @@ using namespace std;
 #define MAX_KEY_LENGTH 1024
 #define MAX_VALUE_NAME 2048
 
-int registrate();
+extern int registrateT();
+extern int registrateM();

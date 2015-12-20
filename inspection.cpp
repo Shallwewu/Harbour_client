@@ -258,12 +258,13 @@ void Inspection::LPinformationShow_slot()
 {
 	ui.LPcomboBox->clear();	//////////////////////////////////////////////////////////////////////////error
 	ui.LPcomboBox->addItem("");
+	int number = Cardriver.allplate.number;
 	QString toshow;
-	//for (int i = 0; i < **; i++)
-	//{
-	//	toshow = QString::fromLocal8Bit(Cardriver.alldriname.driname[i].c_str(), -1);
-	//	ui.LPcomboBox->addItem(toshow);
-	//}
+	for (int i = 0; i < number; i++)
+	{
+		toshow = QString::fromLocal8Bit(Cardriver.allplate.lpnumber[i].c_str(), -1);
+		ui.LPcomboBox->addItem(toshow);
+	}
 }
 //确认手动添加的数据
 void Inspection::on_manualConfirmButton_clicked()

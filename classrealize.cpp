@@ -535,3 +535,17 @@ void Car::carclear()
 	//memset(&otherdri,0,sizeof(otherdri));
 	//memset(&alldriname,0,sizeof(alldriname));
 }
+
+void Car::driverclear()
+{
+	firstdri.name="";
+	firstdri.sex="";
+	firstdri.birth="";
+	firstdri.cardtype="";
+	firstdri.number="";
+	seconddri.name="";
+	seconddri.sex="";
+	seconddri.birth="";
+	seconddri.cardtype="";
+	seconddri.number="";	
+}

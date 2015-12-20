@@ -226,6 +226,8 @@ void controlthread::gateDown_slot()
 void controlthread::getLPinformation_slot()
 {
 	//////////////////////////////////////////////////////////////////////////get the LP information
+	Cardriver.driverclear();
+	Getallplate();
 	emit LPinformationShow_signal();
 }
 

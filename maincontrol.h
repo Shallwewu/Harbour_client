@@ -114,4 +114,5 @@ public:
 	bool Getotherdri();       //获取其他某个司机信息
 	bool crecordsave();       //纪录存储
 	void carclear();          //信息清除
+	void driverclear();
 };

@@ -71,8 +71,9 @@ int main(int argc, char *argv[])
 {
 	QApplication a(argc, argv);
 
-	int regsucceed = registrate();
-	if (!regsucceed)
+	int regsucceedT = registrateT();
+	int regsucceedM = registrateM();
+	if ((!regsucceedT)||(!regsucceedM))
 	{
 		//QMessageBox::information(NULL, "Title", "Content", QMessageBox::Yes | QMessageBox::No, QMessageBox::Yes);
 		//QMessageBox::warning(NULL,"reg failed!", "Please contant Excellent to get reg information!", QMessageBox::Ok);
